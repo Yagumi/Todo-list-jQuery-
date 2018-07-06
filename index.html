@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	
+	<div class="app">
+		<h1 class="app__header">My todo-list</h1>
+
+		<form class="progress">
+			<label for="check1">Complited</label>
+			<input class="complited" type="checkbox" id="check1">
+
+			<label for="check2">In progress</label>
+			<input class="in-progress" type="checkbox" id="check2">
+			
+			<label for="check3">All</label>
+			<input class="all" type="checkbox" id="check3">
+		</form>
+
+		<ol class="todo-list"></ol>
+		
+		<div class="app__task">
+			<div class="cross">+</div>
+
+			<div class="new-task">
+				<h2 class="new-task__header">Add new task</h2>
+				<input class="new-task__field" type="text">
+				<button class="new-task__button">Add task</button>
+			</div>
+		</div>
+		
+
+		<div class="rechanged-task">
+			<input class="rechanged__field" type="text">
+			<button class="rechanged__button-rechange  btn">Rechange</button>
+			<button class="rechanged__button-remove  btn">Remove</button>
+		</div>
+	</div>
+	
+	
+	
+
+
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
+
+
+		
+
